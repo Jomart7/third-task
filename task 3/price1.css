@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.home-page{
+    min-height: 80vh;
+}
+
+.navbar{
+    z-index: 100;
+}
+
+nav{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(70, 59, 233);
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.price-page{
+    min-height: 74vh;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 6%;
+
+}
+
+.pricing-option {
+    /* text-align: center; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan-name {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.features {     
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.signup-btn {
+    font-size: 18px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    height: 44px;
+    width: 170px;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    width: 100%;
+    background-color: rgb(47, 47, 47);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-word{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .pricing-table{
+        gap: 50px;
+        padding: 14% 4%;
+        flex-wrap: wrap;
+    }
+}
